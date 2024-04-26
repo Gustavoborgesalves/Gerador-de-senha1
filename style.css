@@ -1,0 +1,13 @@
+:root {
+    --branco: #FFFFFF;
+    --azul: #00008B;
+    --ciano: #40E0D0;
+}
+
+body {
+    background-color: var(--azul);
+}
+
+conteudo-titulo {
+    color: var(--branco);
+}
