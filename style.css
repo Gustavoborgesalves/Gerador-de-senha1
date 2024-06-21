@@ -112,44 +112,41 @@ label{
 
 .checkbox{
     width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+.forca{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+.fraca{
+    width: 25%;
+    background-color: crimson;
+}
+.media{
+    background-color: gold;
+    width: 50%;
+}
+.forte{
+    background-color: darkcyan;
+    width: 100%;
+}
+
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 768px) {
-    .parametro-coluna__senha {
+@media screen and (min-width: 70px) {
+    .parametro-coluna__senha{
         flex-direction: row;
     }
-}
-.foto{
-    width: 17%;
 }
